@@ -119,3 +119,22 @@ ul.alert-dropdown {
 .side-nav>li>ul>li>a:hover {
     color: #fff;
 }
+
+#wrapper {
+    padding-left: 0;
+}
+
+#page-wrapper {
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+}
+
+@media(min-width:768px) {
+   
+
+    #page-wrapper {
+        padding: 10px;
+        padding-left: 225px;
+    }
+}
